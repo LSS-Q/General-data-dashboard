@@ -1,0 +1,20 @@
+.stApp {
+  background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+}
+.block-container {
+  padding-top: 2.5rem;
+}
+.stButton>button {
+  background: linear-gradient(90deg,#1abc9c,#3498db);
+  color: white;
+  border-radius: 8px;
+}
+.stDownloadButton>button {
+  background: linear-gradient(90deg,#e67e22,#f39c12);
+  color: white;
+  border-radius: 8px;
+}
+.stDataFrame {
+  background: #fff;
+  border-radius: 8px;
+}
