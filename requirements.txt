@@ -8,3 +8,4 @@ scikit-learn
 statsmodels
 kaleido
 jinja2
+openpyxl
