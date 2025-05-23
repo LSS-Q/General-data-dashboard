@@ -13,11 +13,11 @@ A universal data analytics and modeling platform built with **Streamlit**. This 
 - 📤 Support batch prediction uploads and downloadable results
 - 📝 Generate summary reports (HTML export included, PDF optional)
 
-## 🚀 Live Demo
+### 🚀 Live Demo
 
 👉 [Launch App on Streamlit Cloud](https://general-data-dashboard-kgnhh7cmvmgnhbtvw7pkiq.streamlit.app/)
 
-## ⚙️ Installation
+#### ⚙️ Installation
 
 bash
 git clone https://github.com/LSS-Q/General-data-dashboard.git
@@ -26,20 +26,20 @@ pip install -r requirements.txt
 streamlit run app.py
 
 📦 streamlit_dashboard/
-├── app.py                     # Main entry file
-├── requirements.txt
-├── pages/                     # Modular page components
-│   ├── 1_Upload_and_Preview.py
-│   ├── 2_Preprocessing.py
-│   ├── 3_Statistics.py
-│   ├── 4_Visualization.py
-│   ├── 5_Modeling_and_Prediction.py
-│   └── 6_Report_Generation.py
-├── utils/                     # Data preprocessing helpers
-│   ├── data_loader.py
-│   └── preprocess.py
-└── assets/
-    └── style.css              # Custom styling
+- ├── app.py                     # Main entry file
+- ├── requirements.txt
+- ├── pages/                     # Modular page components
+- │   ├── 1_Upload_and_Preview.py
+- │   ├── 2_Preprocessing.py
+- │   ├── 3_Statistics.py
+- │   ├── 4_Visualization.py
+- │   ├── 5_Modeling_and_Prediction.py
+- │   └── 6_Report_Generation.py
+- ├── utils/                     # Data preprocessing helpers
+- │   ├── data_loader.py
+- │   └── preprocess.py
+- └── assets/
+-     └── style.css              # Custom styling
 
-📄 License
+##### 📄 License
 This project is licensed under the MIT License.
